@@ -1,6 +1,25 @@
 import React from 'react';
 import { Card, Row, Col } from 'antd';
 import './App.css';
+const youtubeLinks6th = [
+  { title: 'Multiplication and Division Rule', url: 'https://youtu.be/U4Gd7VPOIhI?si=7w6nz1FfGv3nk5-h' },
+  { title: ' Proper and Improper fraction', url: 'https://youtu.be/wktkuCnRidU?si=AngOxaW6ogTsJC9I' },
+  { title: 'BODMAS', url: 'https://youtu.be/cdToeQj9MAU?si=ccJWSuzQzH-sLEZq' },
+  { title: 'Addition Rule', url: 'https://youtu.be/U61WED_jd44?si=z30E8yNKmf07U8Cl' },
+  { title: 'Circle', url: 'https://youtu.be/JXrJI5wUmyM?si=i0QyDJYmMNeZglDR' },
+  { title: 'Number line', url: 'https://youtu.be/9-Il4eC7V2U?si=DVsEHcnfOfd5RSHG' },
+  { title: 'Complement and Super complement angle', url: 'https://youtu.be/D38ezP7r0UY?si=b1vzZ6t18CQ4Whju' },
+  { title: 'Square', url: 'https://youtu.be/NJ5QixY2zQQ?si=F4GsoxiF70-cBQIQ' },
+  { title: 'Time', url: 'https://youtu.be/vKwby0rWkDI?si=RvRO97UyTkmIiDpv' },
+  { title: 'Rectangle', url: 'https://youtu.be/LQIZzohgyaU?si=cprqhj8wTZQAhS-N' },
+  { title: 'Finding the middle term', url: 'https://youtu.be/INFUnotNi7c?si=UjF3_cs09f7Aa9Dy' },
+  { title: 'Average', url: 'https://youtu.be/daiR0oTA0tU?si=oicDl9B8fJh8oUsX' },
+  { title: 'BODMAS Rule', url: 'https://youtu.be/C-bqBpzXXno?si=d8SScRtLJLPhr-W7' },
+  { title: 'BODMAS', url: 'https://youtu.be/zKOTKY0GBqM?si=F3uXkHqKS1vGNAY5' },
+  { title: 'Decimal Number Addition and Subtraction', url: 'https://youtu.be/c97gG1VwSbk?si=huf4_NsLJ6ss7IVI' },
+  { title: 'Addition Rule', url: 'https://youtu.be/EKiRQ-qsb8k?si=Cjl6hNDsVNJswbh9' },
+  { title: 'Addition Rule with example sums', url: 'https://youtu.be/mVr-ul7d59s?si=t7iK-KGhBEuGi2yb' }
+];
 
 const youtubeLinks7th = [
   { title: 'Fraction Numbers Multiplication and division', url: 'https://youtu.be/Qi7ITsY3mM0?si=6MbKMjApRcOYiEhE' },
@@ -86,6 +105,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <YouTubeLinksSection title="Foundation Maths - 6th Class Videos" links={youtubeLinks6th} />
         <YouTubeLinksSection title="Foundation Maths - 7th Class Videos" links={youtubeLinks7th} />
         <YouTubeLinksSection title="Foundation Maths -8th Class Videos" links={youtubeLinks8th} />
         <YouTubeLinksSection title="Foundation Maths -9th Class Videos" links={youtubeLinks9th} />
